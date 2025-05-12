@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: jobtracker
+    env: docker
+    plan: free
+    autoDeploy: true
+    buildCommand: docker compose build
+    startCommand: docker compose up
+    envVars:
+      - key: FLASK_SECRET_KEY
+        sync: false
+      - key: GOOGLE_OAUTH_CLIENT_ID
+        sync: false
+      - key: GOOGLE_OAUTH_CLIENT_SECRET
+        sync: false

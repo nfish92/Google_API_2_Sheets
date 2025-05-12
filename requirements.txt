@@ -1,0 +1,6 @@
+﻿Flask
+Flask-Dance
+gspread
+oauth2client
+
+python-dotenv
