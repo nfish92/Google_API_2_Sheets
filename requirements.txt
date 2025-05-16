@@ -1,6 +1,9 @@
-﻿Flask
-Flask-Dance
-gspread
-oauth2client
+# requirements.txt
+# Python dependencies needed to run your Flask app
 
-python-dotenv
+Flask                   # Main Python web framework
+Flask-Dance             # Google OAuth support for Flask
+gspread                 # Google Sheets API client
+oauth2client            # Handles Google service account credentials
+python-dotenv           # Loads environment variables from .env
+flask-sslify            # Redirects HTTP to HTTPS (for Render deployment)
