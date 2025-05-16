@@ -126,7 +126,7 @@ docker compose up
 
 ## Credits
 
-Built by Neal Fishenden as a favor to a friend running ad-hoc jobs. Clean and easy.
+Built by Nfish92 as a favor to a friend running ad-hoc jobs. Clean and easy.
 
 ---
 
@@ -135,5 +135,3 @@ Built by Neal Fishenden as a favor to a friend running ad-hoc jobs. Clean and ea
 MIT License — open to all for use, learning, and remixing.
 
 ---
-
-**Let me know if you want further tweaks or a “What to do if you accidentally commit a secret” quick-start below this!**
