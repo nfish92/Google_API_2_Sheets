@@ -37,7 +37,7 @@ This is a lightweight job-tracking web app originally built to help a friend tra
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/jobtracker_Pub.git
+git clone https://github.com/your-username/Google_API_2_Sheets.git
 cd jobtracker_Pub
 ```
 
