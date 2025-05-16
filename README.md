@@ -1,7 +1,3 @@
-Absolutely, here’s a **clean, professional GitHub README.md** with consistent formatting, bullet points, and a dedicated section for handling sensitive info. This will look good on your repo and is easy to copy-paste:
-
----
-
 # Job Tracker
 
 This is a lightweight job-tracking web app originally built to help a friend track one-off service jobs using a clean web form that logs data directly to Google Sheets. This public repo provides a safe, deployable version with placeholder secrets — ideal for anyone looking to replicate or learn from the setup.
