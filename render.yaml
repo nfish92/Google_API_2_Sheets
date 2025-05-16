@@ -1,11 +1,14 @@
+# render.yaml
+# Render.com deployment configuration for CI/CD
+
 services:
   - type: web
     name: jobtracker
     env: docker
     plan: free
     autoDeploy: true
-    buildCommand: docker compose build
-    startCommand: docker compose up
+    buildCommand: docker compose build     # How to build the container
+    startCommand: docker compose up        # How to start it
     envVars:
       - key: FLASK_SECRET_KEY
         sync: false
