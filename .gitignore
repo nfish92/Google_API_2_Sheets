@@ -1,8 +1,18 @@
-﻿.env
-credentials.json
+# .gitignore
+# Ignore secrets and system files so you never upload sensitive info or junk to GitHub
+## Secrets & Configuration
+
+# This repo includes `example.env` and `credentials.example.json` as templates.  
+##**Never commit your real `.env` or `credentials.json` files!**  
+##To run the app:
+
+#1. Copy `example.env` to `.env` and fill in your actual credentials.
+#2. Add your real `credentials.json` (from Google Cloud) to the project root.
+#3. Make sure both `.env` and `credentials.json` are in your `.gitignore` to keep them private.
+
 __pycache__/
 *.pyc
 .venv
-.DS_Store       
-*.log           
-.env.*          
+.DS_Store
+*.log
+.env.*
