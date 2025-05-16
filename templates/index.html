@@ -1,9 +1,11 @@
-﻿<!DOCTYPE html>
+<!-- index.html -->
+<!DOCTYPE html>
 <html>
 <head>
     <title>Bill Cone Water Job Tracker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+      /* Simple responsive styling for the form */
       body {
         font-family: Arial, sans-serif;
         background-color: #f4f8fb;
@@ -51,7 +53,9 @@
 </head>
 <body>
   <div class="container">
+    <!-- Main heading -->
     <h2>Bill Cone Water - Job Entry</h2>
+    <!-- Job entry form. This posts via JS (see script.js), not traditional POST -->
     <form id="jobForm">
       <label>Customer Name:</label>
       <input type="text" name="customer_name" required>
@@ -78,6 +82,7 @@
     </form>
   </div>
 
+<!-- Connect to script.js for form submission logic -->
 <script src="/static/script.js"></script>
 </body>
 </html>
