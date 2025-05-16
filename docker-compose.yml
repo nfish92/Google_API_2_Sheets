@@ -1,9 +1,12 @@
-﻿version: "3.9"
+# docker-compose.yml
+# Defines how to run your Flask app in Docker
+
+version: "3.9"
 
 services:
   web:
-    build: .
+    build: .                # Build Docker image from local Dockerfile
     ports:
-      - "5000:5000"
+      - "5000:5000"         # Expose Flask on port 5000
     environment:
-      FLASK_SECRET_KEY: "dev-temp-key"
+      FLASK_SECRET_KEY: "your-key"  # Set a temp secret key for container (overridden in Render)
